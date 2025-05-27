@@ -14,12 +14,10 @@ This project uses machine learning and natural language processing (NLP) to clas
 
 ---
 
-## 📁 Project Structure
+## 📁 Project Files
 
-twitter-sentiment-analysis/
-│
-├── twitter_sentiment.ipynb # Main notebook
-├── README.md # Project summary and instructions
+- `twitter_sentiment.ipynb` – Main notebook containing data cleaning, vectorization, and model training  
+- `README.md` – Project overview and documentation
 
 ---
 
@@ -28,13 +26,6 @@ twitter-sentiment-analysis/
 - `pandas` for data handling  
 - `nltk` for tokenization and text preprocessing  
 - `sklearn` for vectorization, model training, and evaluation
-
----
-
-## 🔍 Dataset
-
-- **Source:** Pre-labeled tweet dataset  
-- **Target Column:** `Sentiment` (Positive = 1, Negative = 0)
 
 ---
 
